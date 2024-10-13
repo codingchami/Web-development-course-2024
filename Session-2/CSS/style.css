@@ -1,0 +1,82 @@
+.p-1{
+    color: red;
+
+
+    text-align: left;
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    text-align: justify;
+
+    text-decoration-line: none;
+    text-decoration-line: underline overline;
+    text-decoration-line: overline;
+    text-decoration-line: line-through;
+    text-decoration-line: underline;
+    
+    text-decoration-color: rgb(2, 1, 28);
+/* 
+    text-decoration-style: solid;     
+    text-decoration- */
+    
+
+
+
+
+    /* text-align: left;
+    text-align: center;
+    text-align: right;
+    text-align: justify;
+
+    text-decoration-line: underline overline;
+    text-decoration-line: underline;
+    text-decoration-line: overline;
+    text-decoration-line: line-through;
+    text-decoration-line: underline;
+
+    text-decoration-color: rgb(235, 27, 27);
+
+    text-decoration-style: solid;
+    text-decoration-thickness: 120px;
+
+
+
+    /* TEXT TRANSFORM */
+    /* text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize; */
+
+    /* TEXT SPACING */
+    /* word-spacing: 5px;
+    letter-spacing:2px ;
+    line-height: 2;  */
+
+
+}
+/* p{
+    color: green !important;
+} */
+
+.p-2{
+    color: blueviolet;
+    color: rgb(0,0,255);
+    color: #707077;
+}
+
+button{
+    background-color: blue;
+    color: aliceblue;
+    
+}
+
+/* 1 - !important
+2 - ID
+3 - class
+4 - tag */
+
+/* ********************************************************************* */
+
+.p{
+    font-size: 14px;
+    font-style: italic;
+}

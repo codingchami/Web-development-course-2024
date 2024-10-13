@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-1{
+    width: 20%;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.box-2{
+    width: 20%;
+    height: 10vh;
+    background-color: black;
+}
+
+.box-3{
+    width: 20%;
+
+    /* Parent element(body) hasn't height, therefore height 50% is not valid,(reason is always child element use the parent element values in  when using percentage values.. )*/
+    height: 50%;
+    background-color: blue;
+}
+
+.box-4{
+    width: 20%;
+    max-height: 100px;
+    background-color: yellow;
+}
