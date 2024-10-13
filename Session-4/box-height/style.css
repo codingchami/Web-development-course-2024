@@ -11,6 +11,8 @@
 
 .box-2{
     width: 20%;
+
+    /* visual height */
     height: 10vh;
     background-color: black;
     margin-top: 40px;
