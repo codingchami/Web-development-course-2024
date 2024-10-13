@@ -13,6 +13,7 @@
     width: 20%;
     height: 10vh;
     background-color: black;
+    margin-top: 40px;
 }
 
 .box-3{
@@ -21,12 +22,22 @@
     /* Parent element(body) hasn't height, therefore height 50% is not valid,(reason is always child element use the parent element values in  when using percentage values.. )*/
     height: 50%;
     background-color: blue;
+    margin-top: 40px;
 }
 
 .box-4{
     width: 20%;
     max-height: 100px;
     background-color: yellow;
+    margin-top: 40px;
+}
+
+.box-5{
+    width: 20%;
+    min-height: 100px;
+    background-color: blue;
+    margin-top: 40px;
+
 }
 
 
