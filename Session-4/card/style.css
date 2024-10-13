@@ -10,7 +10,10 @@
     background-color: gray;
     display: flex;
     align-items: center;
-}
+    background-image: url(./images/background.jpeg);
+    /* background-size: cover;
+    object-fit: contain;
+} */
 
 .card{
     width: 400px;
