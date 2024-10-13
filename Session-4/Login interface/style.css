@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 110vh;
+    background-image: url(./images/background5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+
+/* Login */
+.login{
+    width: 400px;
+    min-height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    background-color:whitesmoke;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.login-header{
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: blue; */
+}
+
+.login-header h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.login-content{
+    width: 100%;
+    /* height: 200px; */
+    /* background-color: rgb(97, 227, 184); */
+    margin-top: 40px;
+}
+
+.login-input{
+    width: 100%;
+
+}
+
+.login-input p{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.login-input input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+    padding: 0 5px;
+
+
+}
+
+.login-forget {
+    width: 100%;
+    height: 100px;
+    /* background-color: blueviolet; */
+    margin-top: 20px;
+
+}
+
+.login-forget a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #707070;
+
+
+}
+
+/* login button */
+
+.login-button{
+    width: 100%;
+    margin-top: -30px;
+}
+.login-button input{
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    color: aliceblue;
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient(to right, rgb(33, 3, 8),pink);
+    cursor: pointer;
+}
+
+.login-signup{
+    width: 100%;  
+}
+.login-signup p{
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.login-signup p a{
+    font-family: sans-serif;
+    text-decoration: none;
+  
+    color: black;
+
+}
+
+.login-button input:hover{
+    background-image: linear-gradient(to right, rgb(87, 10, 62),rgb(215, 99, 118));
+}
