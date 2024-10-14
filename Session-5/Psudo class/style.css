@@ -30,4 +30,41 @@
 }
 */
 
+/* a{
+    color: blue;
+} */
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: brown;
+}
+/* when continuing it press, it shows this color */
+a:active{
+    color: aquamarine;
+}
+
+a:hover{
+    color: rgb(196, 236, 18);
+    font-size: 20px;
+}
+
+
+button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,blue,green);
+
+}
+
+/* psudo class( semicolane using when after the name -button : , like this, we can say this a psudo class) */
+button:hover{
+    background-image: linear-gradient(to left,blue,green);
+}
+
+
 
