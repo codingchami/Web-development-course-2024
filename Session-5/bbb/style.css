@@ -35,6 +35,8 @@ ul li{
     width: 600px;
     height: 600px;
     background-color: red;
+
+    /* this one is verry compulsory for using when justify-content and align-items */
     display: flex;
 
     /* this one works only for the there has a display: flex..it is compulsory. */
@@ -44,6 +46,16 @@ ul li{
     justify-content: space-between;
     justify-content: space-around;
     justify-content: space-evenly;
+
+    justify-content: center;
+
+
+  
+    align-items: end;
+    align-items: start;
+    align-items: center;
+    
+
 
  }
 
