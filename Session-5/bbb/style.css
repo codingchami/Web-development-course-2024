@@ -11,10 +11,9 @@ ul li{
     /* display: inline; */
 
     display: inline-block; 
-
  }
 
- 
+
  a{
     width: 100px;
     margin: 1 0px;
@@ -25,6 +24,8 @@ ul li{
 
     /* now works the height */
     /* display: block; */
+
+   
  }
 
 
@@ -35,6 +36,15 @@ ul li{
     height: 600px;
     background-color: red;
     display: flex;
+
+    /* this one works only for the there has a display: flex..it is compulsory. */
+    justify-content: right;
+
+    /* Keep the same space between contents */
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
  }
 
  .content-1{
