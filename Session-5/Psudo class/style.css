@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
 }
 
@@ -63,8 +63,49 @@ button{
 /* psudo class( semicolane using when after the name -button : , like this, we can say this a psudo class) */
 button:hover{
     background-image: linear-gradient(to left,blue,green);
+    cursor: pointer;
 }
 
+/* psudo class applying for the first element at the list */
+ul li:first-child{
+    color: rgb(130, 182, 32);
+    font-size: 20px;
+}
+
+ul li:last-child{
+    color: blue;
+    font-size: 20px;
+}
+
+ul li:nth-child(3){
+    color: rgb(231, 25, 25);
+}
+
+ul li:nth-last-child(2){
+    color: aqua;
+}
+
+
+
+/* how to apply things for the few elements of the unorderd list */
+ul li:nth-child(1),
+ul li:nth-child(3){
+    color: bisque;
+}
+
+ul li:nth-child(odd){
+    color: darkblue;
+}
+
+ul li:nth-child(even){
+    color: aqua;
+}
+
+/* psudo class for the input tags */
+input:focus{
+    width: 200px;
+    height: 40px;
+}
 
 
 
