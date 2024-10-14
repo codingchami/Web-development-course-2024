@@ -35,8 +35,10 @@ ul li::marker{
 
 h1::before{
     content: "Heee";
-
     color: blueviolet;
+
+    /* now it became transparent */
+    opacity: 0.5;
 }
 
 h1::after{
@@ -44,5 +46,12 @@ h1::after{
     color: brown;
 }
 
+
+img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.6;
+}
 
 
