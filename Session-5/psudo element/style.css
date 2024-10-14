@@ -1,10 +1,48 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
 }
 
-/* psudo class has two semi colanes like this and psudo elements has only one semi colane */
+/* psudo element has two semi colanes like this and psudo class has only one semi colane */
 p::first-letter{
-
+    color: blue;
+    font-size: 30px;
+    font-weight: 600;
 }
+
+p::first-line{
+    color: green;
+}
+
+p::selection{
+    color: blue;
+    background-color: aqua;
+}
+
+input::placeholder{
+
+    /* here (rgba) a - means alpha ,it becomes 0, its not appear, we can keep it between 0-1 for the within visualization diffference(like transparent)  */
+    color: rgba(201, 68, 68, 0.5);
+}
+
+/* In this way we can change the color of the bullet points */
+ul li::marker{
+    color: green;
+    font-size: 25px;
+}
+
+
+h1::before{
+    content: "Heee";
+
+    color: blueviolet;
+}
+
+h1::after{
+    content: ".....Welcome";
+    color: brown;
+}
+
+
+
