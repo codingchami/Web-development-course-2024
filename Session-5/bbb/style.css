@@ -5,7 +5,7 @@
 }
 
 ul li{
-    display: block; 
+    /* display: block;  */
 
     /*some styles not working for it, therefore we use inline-block  */
     /* display: inline; */
@@ -14,6 +14,7 @@ ul li{
 
  }
 
+ 
  a{
     width: 100px;
     margin: 1 0px;
@@ -26,3 +27,24 @@ ul li{
     /* display: block; */
  }
 
+
+
+ /* display: flex give for the parent element */
+ .box{
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    display: flex;
+ }
+
+ .content-1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+ }
+
+ .content-2{
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+}
