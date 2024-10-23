@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background-image: url(./images/img1.jpeg);
+    background-image: url(./images/img-3.jpeg);
     background-size: cover;
 }
 
@@ -94,6 +94,29 @@ nav{
 .nav-content-2 button:hover{
     border: 2px solid white;
     color: white;
+}
+
+.content{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.content-star{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-star p{
+    color: white;
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.content-star p span{
+    color: gray;
 }
 
 
