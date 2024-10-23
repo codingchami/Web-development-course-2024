@@ -116,7 +116,53 @@ nav{
 }
 
 .content-star p span{
-    color: gray;
+    color: rgb(12, 7, 7);
+}
+
+.content-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.content-title h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    width: 1000px;
+    text-align: center;
+
+}
+
+
+/* content description */
+.content-description{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.content-description p{
+    color: rgb(239, 232, 232);
+    width: 800px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}
+
+/* content button */
+
+.content-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
 }
 
 
