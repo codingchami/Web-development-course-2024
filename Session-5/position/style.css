@@ -8,9 +8,15 @@
     width: 200px;
     height: 200px;
     background-color: red;
-    position: relative;
-    left: 50px;
-    top: 50px;
+    /* other members are dont know this elemnt position were changed */
+    /* position: relative; */
+
+    /* when we use this position: absolute, it seens only for us and other page elemnts think its not in the page() */
+    position: absolute;
+    /* left: 100px; */
+    /* top: 50px; */
+    right: 10px;
+    bottom: 0px;
 }
 
 .box-2{
