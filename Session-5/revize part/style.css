@@ -1,0 +1,28 @@
+button{
+    width: 200px;
+}
+
+.box{
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.content-2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+p{
+    text-align: center;
+}
