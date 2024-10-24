@@ -17,6 +17,8 @@
     /* top: 50px; */
     right: 10px;
     bottom: 0px;
+
+    position: fixed;
 }
 
 .box-2{
