@@ -28,3 +28,6 @@ button{
     color: white;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    transform: rotate(20deg);
+
+}
