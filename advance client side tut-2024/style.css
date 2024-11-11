@@ -1,4 +1,77 @@
-body{
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Simple animation */
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* @keyframes example{
+    from{background-color: red;}
+    to{background-color:blueviolet}
+} */
+
+@keyframes example{
+    0% {background-color: red;}
+    25%{background-color: aliceblue;}
+    50%{background-color: black;}
+    100%{background-color: blue;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
     background-color: rgb(227, 102, 123);
 }
 .box-1{
@@ -22,4 +95,4 @@ body{
 .button2{
     background-color: dark pink;
     width: 60%;
-}
+} */
